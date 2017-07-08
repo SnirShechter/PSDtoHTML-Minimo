@@ -1,0 +1,17 @@
+.main-nav {
+  height: 70px;
+  .right-menu {
+    li:not(:last-child) {
+      margin-right: 3em;
+    }
+
+    a {
+      font-size: rem(14px);
+      text-transform: uppercase;
+      transition: color 0.5s;
+      &:hover {
+        color: lightcoral;
+      }
+    }
+  }
+}
